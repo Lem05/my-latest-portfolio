@@ -49,13 +49,13 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-white">
+            <h2 className="text-4xl py-2 text-teal-600 font-medium md:text-6xl dark:text-white">
               Lemar Corales
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Developer and Designer
+              Full-Stack Developer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+            <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
               I will be your goal-oriented and passionate full-stack web
               developer with a mission to deliver profitable website. With
               dedication to help companies gain high-paying assets such as
@@ -69,18 +69,18 @@ export default function Home() {
             <div>
               <br />
               <a
-                className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-2 rounded-md ml-8 md:text-1sm md:px-4 md:py-2"
+                className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-center px-2 py-2 rounded-md ml-8 md:text-1sm md:px-4 md:py-2 md:text-center"
                 href="#">
                 Lets Work Together
               </a>
             </div>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden text-center align-middle justify-center py-2 md:h-96 md:w-96">
             <Image src={lem} layout="fill" objectFit="cover" alt="image" />
           </div>
         </section>
         <section>
-          <div>
+          <div className="pt-5">
             <h3 className="text-3xl py-1 dark:text-white">Services I Offer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               Since the beginning of my journey as a freelancer designer and
