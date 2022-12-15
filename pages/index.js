@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={lem} layout="fill" objectFit="cover" />
+            <Image src={lem} layout="fill" objectFit="cover" alt="image" />
           </div>
         </section>
         <section>
@@ -82,7 +82,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Services I Offer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               Since the beginning of my journey as a freelancer designer and
-              developer, I've done remote work for{' '}
+              developer, Ive done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -158,7 +158,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white">
               Since the beginning of my journey as a freelancer designer and
-              developer, I've done remote work for{' '}
+              developer, I've done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
