@@ -56,8 +56,10 @@ export default function Home() {
               Developer and Designer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and lets work together.
+              I will be your goal-oriented and passionate full-stack web
+              developer with a mission to deliver profitable website. With
+              dedication to help companies gain high-paying assets such as
+              mobile and web apps.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
               <AiFillGithub />
@@ -67,7 +69,7 @@ export default function Home() {
             <div>
               <br />
               <a
-                className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 sm:text-1sm"
+                className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-2 rounded-md ml-8 md:text-1sm md:px-4 md:py-2"
                 href="#">
                 Lets Work Together
               </a>
